@@ -1,0 +1,26 @@
+.list{
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+
+     list-style: none;
+}
+
+.item{
+     padding: 0.75rem 1rem;
+     border-radius: 0.75rem;
+
+     font-size: 0.9rem;
+     background-color: var(--color-light-grey);
+     transition: color 0.3s ease, opacity 0.3s ease;
+}
+
+.notReady {
+  color: var(--color-primary);
+  opacity: 1;
+}
+
+.ready {
+  color: var(--color-primary);
+  opacity: 0.4;
+}

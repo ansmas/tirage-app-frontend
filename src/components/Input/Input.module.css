@@ -1,0 +1,18 @@
+.label{
+     font-size: 1rem;
+     display: block;
+}
+
+.input{
+     margin-top: 1em;
+     padding: 14px 0.5em;
+
+     width: 100%;
+
+     border: 1px solid var(--color-primary);
+     border-radius: 0.5em;
+     background-color: transparent;
+     color: var(--color-primary);
+
+     font-size: 14px;
+}

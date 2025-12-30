@@ -1,0 +1,29 @@
+.footer{
+  margin-top: auto;
+  padding-top: 2rem;
+  
+  display: flex;
+  justify-content: center;
+}
+
+.readyButton {
+  padding: 14px 32px;
+
+  background-color: transparent;
+  border: 1px solid var(--color-primary);
+  border-radius: 1em;
+  color: var(--color-primary);
+  
+  transition: all 0.3s ease;
+}
+
+.readyButton:hover:not(:disabled) {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  box-shadow: 0 8px 16px rgba(2, 38, 1, 0.1);
+}
+
+.readyButton:disabled {
+  cursor: default;
+  opacity: 0.4;
+}

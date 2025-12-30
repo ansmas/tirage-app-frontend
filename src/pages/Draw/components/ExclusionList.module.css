@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+
+  list-style: none;
+}
+
+.item{
+     padding: 010px;
+     border-radius: 0.75rem;
+
+     background-color: var(--color-light-grey);
+     font-size: 0.9rem;
+
+     transition: all 0.2s ease;
+     cursor: pointer;
+}
+
+.item:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.excluded {
+  opacity: 0.4;
+  text-decoration: line-through;
+}
